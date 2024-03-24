@@ -1,0 +1,16 @@
+.menu-section{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 80%;
+    padding-inline: 10%;
+    
+}
+
+.menu-imgs{
+    margin-block-start: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

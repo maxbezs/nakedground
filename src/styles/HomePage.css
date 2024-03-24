@@ -1,0 +1,248 @@
+.lemon-head {
+  font-family: "Artifact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 206px;
+  margin: 0;
+}
+
+.lemon-section {
+  width: 100%;
+  height: 80vh;
+  max-height: 752px;
+  background-color: #95d6f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-height: 932px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info-section {
+  width: 100%;
+  max-width: 406px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.info-h3 {
+  font-family: "Apercu";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  margin: 0;
+  text-align: center;
+}
+
+.info-pp {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.info-pp2 {
+  font-family: "Artifact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 44px;
+  /* or 44px */
+
+  text-align: center;
+}
+
+.house-section {
+  width: 100%;
+  padding-block: 16%;
+  height: 40%;
+  max-height: 500px;
+  /*background-image: url(../images/houses-back.jpg) ;
+    background-size: cover;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.tt {
+  width: 90%;
+  background-image: url(../images/houses-back.jpg);
+  background-size: cover;
+  padding-left: 10%;
+}
+
+.oiu {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-inline: 10%;
+  padding-block: 5%;
+}
+
+.coffee-section {
+  width: 80%;
+  padding-inline: 10%;
+  padding-block-start: 5%;
+  padding-block-end: 20%;
+  height: 50%;
+  max-height: 700px;
+  background: url(../images/coffee-background.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.review-section {
+  width: 80%;
+  padding-inline: 10%;
+  padding-block: 5%;
+  height: 50%;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.reviews {
+  width: 100%;
+  display: flex;
+  gap: 18px;
+  margin-top: 80px;
+  text-decoration: none;
+  color: #000;
+}
+
+.review {
+  background-color: #95d6f1;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  text-align: center;
+}
+
+.review-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.amsterdam-section {
+  width: 80%;
+  padding-inline: 10%;
+  padding-block: 15%;
+  height: 50%;
+  max-height: 700px;
+  background-image: url(../images/ams-back.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.tape-strip-ams {
+  position: absolute;
+  right: 10%;
+  margin-top: calc(-44% + 41px);
+  z-index: 1;
+}
+
+.phh {
+  display: flex;
+}
+
+.trip-widget {
+  height: 30px;
+  width: auto;
+}
+
+.big-links {
+  text-decoration: none;
+}
+
+.big-links:hover {
+  color: #80c7df;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  padding-left: 10%;
+}
+.pc {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .phh {
+    display: none;
+  }
+  .pc {
+    display: flex;
+  }
+
+  .lemon-section {
+    justify-content: center;
+    height: auto;
+    padding-block-end: 20%;
+    padding-block-start: calc(20% + 77px);
+  }
+
+  .lemon-head {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .trip-widget {
+    width: 80%;
+    height: auto;
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+  .review-section {
+    padding-block: 15%;
+  }
+  .house-section {
+    padding-block: 50%;
+  }
+}
