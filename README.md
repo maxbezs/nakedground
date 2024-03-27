@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src="./Image-from.png" alt="Project Banner">
+      <img src="./nakedground.jpg" alt="Project Banner">
   <br />
 
   <h1 align="center">Coffee House Website</h1><div>
