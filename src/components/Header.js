@@ -117,14 +117,14 @@ const Header = () => {
             marginInline: "10%",
           }}
         >
-          {/*<a
+          <a
             className={
               activePath === "/ibiza-house" ? "nav-link active" : "nav-link "
             }
             href="/ibiza-house"
           >
             {languageMap[globalVariable]?.text1}
-          </a>*/}
+          </a>
           <a
             className={
               activePath === "/coffee" ? "nav-link active" : "nav-link"
@@ -133,15 +133,34 @@ const Header = () => {
           >
             {languageMap[globalVariable]?.text2}
           </a>
-          {/*<a className={activePath === '/menu' ? 'nav-link active' : 'nav-link'} href="/menu">{languageMap[globalVariable]?.text26}</a>
-            <a className={activePath === '/reservation' ? 'nav-link active' : 'nav-link'} href="/reservation">{languageMap[globalVariable]?.text29}</a>
-    <a className={activePath === '/careers' ? 'nav-link active' : 'nav-link'} href="/careers">{languageMap[globalVariable]?.text30}</a>*/}
+          <a
+            className={activePath === "/menu" ? "nav-link active" : "nav-link"}
+            href="/menu"
+          >
+            {languageMap[globalVariable]?.text26}
+          </a>
+          <a
+            className={
+              activePath === "/reservation" ? "nav-link active" : "nav-link"
+            }
+            href="/reservation"
+          >
+            {languageMap[globalVariable]?.text29}
+          </a>
+          <a
+            className={
+              activePath === "/careers" ? "nav-link active" : "nav-link"
+            }
+            href="/careers"
+          >
+            {languageMap[globalVariable]?.text30}
+          </a>
         </div>
       </div>
       <header className="hh">
         <nav className="nnav">
           <div className="phh">
-            {/*<a
+            <a
               className={
                 activePath === "/ibiza-house"
                   ? " nav-link active phh"
@@ -150,7 +169,7 @@ const Header = () => {
               href="/ibiza-house"
             >
               {languageMap[globalVariable]?.text1}
-            </a>*/}
+            </a>
             <a
               href="/coffee"
               className={
@@ -178,7 +197,7 @@ const Header = () => {
             </p>
           </a>
           <div className="nav-section-2">
-            {/*<a
+            <a
               href="/reservation"
               className={
                 activePath === "/reservation"
@@ -187,7 +206,7 @@ const Header = () => {
               }
             >
               {languageMap[globalVariable]?.text3}
-            </a>*/}
+            </a>
             <div className="select-language">
               <div
                 className="dropdown"
@@ -249,13 +268,13 @@ const Header = () => {
                 )}
               </div>
             </div>
-            {/*<a href="/subscribe">
+            <a href="/subscribe">
               {activePath === "/subscribe" ? (
                 <img className="user-icon" src={accountB}></img>
               ) : (
                 <img className="user-icon" src={account}></img>
               )}
-            </a>*/}
+            </a>
           </div>
         </nav>
       </header>

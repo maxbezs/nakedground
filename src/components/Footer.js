@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-colums">
-          {/*<div className="footer-colum phh">
+          <div className="footer-colum phh">
             <h4 className="hh4">{languageMap[globalVariable]?.text25}</h4>
             <p className="purpose-p">{languageMap[globalVariable]?.text25a}</p>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
               {languageMap[globalVariable]?.text30}
             </a>
           </div>
-          <hr className="hhr phh" />*/}
+          <hr className="hhr phh" />
           <div className="footer-colum">
             <div className="social-icons">
               <a

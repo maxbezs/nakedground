@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import LangContext from "../contexts/LangContext";
+import houseVideo from "../images/Houses-video-2.mp4";
 
 import languageMap from "../languageMap";
 const House2 = () => {
@@ -11,10 +12,7 @@ const House2 = () => {
       style={{ marginBlockStart: "77px" }}
     >
       <video autoPlay muted loop playsInline>
-        <source
-          src="https://github.com/maxbezs/nakedground-front/releases/download/publish/Houses-video-2.mp4"
-          type="video/mp4"
-        />
+        <source src={houseVideo} type="video/mp4" />
       </video>
       <div className="caption">
         <h2 className="hh2" style={{ color: "white" }}>
