@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      {/*<div className="lemon-section">
+      <div className="lemon-section">
         <div
           style={{
             justifyContent: "start",
@@ -40,7 +40,7 @@ const HomePage = () => {
         </div>
       </div>
       <Line />
-      <Info />*/}
+      <Info />
       <House />
       <div className="coffee-section">
         <h2 className="hh2" style={{ textAlign: "end" }}>
@@ -52,8 +52,8 @@ const HomePage = () => {
           </p>
         </a>
       </div>
-      {/*<Line2 />*/}
-      {/*<div className="review-section">
+      <Line2 />
+      <div className="review-section">
         <h2
           className="hh2"
           style={{ fontFamily: "Artifact", letterSpacing: "0" }}
@@ -172,7 +172,7 @@ const HomePage = () => {
             </p>
           </div>
         </a>
-      </div>*/}
+      </div>
       <div className="location-house-section pc">
         <div className="location-house-section-details">
           <div

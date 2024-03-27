@@ -100,7 +100,11 @@ const Footer = () => {
                 <img className="social-icon" src={youtube} />
               </a>
             </div>
-            {/*<a href='/subscribe' style={{width:'100%'}}><button className='subscribe-button'>{languageMap[globalVariable]?.text31}</button></a>*/}
+            <a href="/subscribe" style={{ width: "100%" }}>
+              <button className="subscribe-button">
+                {languageMap[globalVariable]?.text31}
+              </button>
+            </a>
           </div>
         </div>
         <div className="footer-bottom">
