@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://nakedground.onrender.com",
-  "homepage": "https://nakedground.coffee",
+  "homepage": "https://coffeeground.vercel.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

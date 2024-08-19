@@ -57,14 +57,14 @@ const LocationPage = () => {
           <div className="location-house-section-details">
             <a
               className="location-img-map"
-              href="https://www.google.com/maps/place/NAKED+GROUND/@38.9826493,1.5330899,21z/data=!3m1!5s0x1299154dd4483e0f:0x85e890e689383ebc!4m6!3m5!1s0x12991540cddc4fe7:0xb87b34c54927ccf!8m2!3d38.9827039!4d1.533152!16s%2Fg%2F11s57f9zjl?authuser=0"
+              href="https://www.google.com/maps/place/COFFEE+GROUND/@38.9826493,1.5330899,21z/data=!3m1!5s0x1299154dd4483e0f:0x85e890e689383ebc!4m6!3m5!1s0x12991540cddc4fe7:0xb87b34c54927ccf!8m2!3d38.9827039!4d1.533152!16s%2Fg%2F11s57f9zjl?authuser=0"
               target="_blank"
             >
               <img src={mapImg} />
             </a>
             <div className="location-info-map">
               <p className="location-house-section-details-name">
-                NAKED GROUND
+                COFFEE GROUND
               </p>
               <p className="location-house-section-details-destination">
                 SANTA EULARIA DES RIU, IBIZA

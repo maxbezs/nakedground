@@ -13,23 +13,23 @@
 
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Introduction
 
-The NAKED GROUND website is designed to transport visitors into the heart of coffee house culture. It features an intuitive layout, guiding users through the exploration of distinct locations, specially curated coffee and menu, daily happenings, and how to book a visit or reserve table with fantastic view.
+The COFFEE GROUND website is designed to transport visitors into the heart of coffee house culture. It features an intuitive layout, guiding users through the exploration of distinct locations, specially curated coffee and menu, daily happenings, and how to book a visit or reserve table with fantastic view.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
 - React.js
 - Sass
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
 👉 **Engaging, thematic design**: Reflects the warm, inviting atmosphere of Coffee House, ensuring a seamless online to in-person experience.
 
@@ -37,7 +37,7 @@ The NAKED GROUND website is designed to transport visitors into the heart of cof
 
 👉 **Responsive and accessible**: Ensures a great user experience across all devices, with a focus on accessibility and more, focusing on user engagement.
 
-## <a name="quick-start">🤸 Quick Start</a>
+## 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
@@ -51,23 +51,26 @@ Make sure you have the following installed on your machine:
 
 **Cloning the Repository**
 
-```bash
+```bash {"id":"01J5M6F2GV3DGNSSAFDR1Y6K0X"}
 git clone https://github.com/maxbezs/nakedground.git
 cd nakedground
+
 ```
 
 **Installation**
 
 Install the project dependencies using npm:
 
-```bash
+```bash {"id":"01J5M6F2GV3DGNSSAFDR3QYMFW"}
 npm install
+
 ```
 
 **Running the Project**
 
-```bash
+```bash {"id":"01J5M6F2GV3DGNSSAFDVPQ0QET"}
 npm start
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.

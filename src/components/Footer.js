@@ -80,22 +80,22 @@ const Footer = () => {
             <div className="social-icons">
               <a
                 target="_blank"
-                href="https://www.facebook.com/NakedGroundEspana"
+                href="https://www.facebook.com/COFFEEGroundEspana"
               >
                 <img className="social-icon" src={facebook} />
               </a>
-              <a target="_blank" href="https://www.tiktok.com/@nakedground.es">
+              <a target="_blank" href="https://www.tiktok.com/@COFFEEground.es">
                 <img className="social-icon" src={tiktok} />
               </a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/nakedground.es/"
+                href="https://www.instagram.com/COFFEEground.es/"
               >
                 <img className="social-icon" src={instagram} />
               </a>
               <a
                 target="_blank"
-                href="https://www.youtube.com/@nakedgroundlive/"
+                href="https://www.youtube.com/@COFFEEgroundlive/"
               >
                 <img className="social-icon" src={youtube} />
               </a>
@@ -109,8 +109,11 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <div className="footer-bottom-row">
-            <a href="mailto:ibizahouse@nakedground.coffee" className="nav-link">
-              ibizahouse@nakedground.coffee
+            <a
+              href="mailto:ibizahouse@COFFEEground.coffee"
+              className="nav-link"
+            >
+              ibizahouse@COFFEEground.coffee
             </a>
             <a href="/privacy-policy" target="_blank" className="nav-link">
               {" "}
@@ -119,7 +122,7 @@ const Footer = () => {
           </div>
           <div className="footer-bottom-row">
             <p className="purpose-p">Copyright © 2023</p>
-            <p className="purpose-p">NAKED GROUND COFFEE</p>
+            <p className="purpose-p">COFFEE GROUND COFFEE</p>
             <p className="purpose-p">{languageMap[globalVariable]?.text34}</p>
           </div>
         </div>
